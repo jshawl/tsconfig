@@ -1,6 +1,6 @@
 {
   "name": "@jshawl/tsconfig",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "it takes too long to add a `tsconfig.json` file to a new project.",
   "main": "index.js",
   "scripts": {
