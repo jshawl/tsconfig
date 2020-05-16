@@ -1,0 +1,28 @@
+{
+  "name": "@jshawl/tsconfig",
+  "version": "0.0.5",
+  "description": "it takes too long to add a `tsconfig.json` file to a new project.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "test": "npm run build",
+    "postinstall": "cp -n tsconfig.json $INIT_CWD || echo 'error: refusing to overwrite existing tsconfig.json'"
+  },
+  "files": [
+    "README.md",
+    "tsconfig.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshawl/tsconfig.git"
+  },
+  "author": "Jesse Shawl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jshawl/tsconfig/issues"
+  },
+  "homepage": "https://github.com/jshawl/tsconfig#readme",
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  }
+}
