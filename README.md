@@ -1,3 +1,19 @@
+# tsconfig.json
+
+## Installation
+
+```
+npm install @jshawl/tsconfig
+```
+
+or
+
+```
+curl -OL https://unpkg.com/@jshawl/tsconfig/tsconfig.json
+```
+
+## Background
+
 it takes too long to add a `tsconfig.json` file to a new project.
 
 google -> https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
